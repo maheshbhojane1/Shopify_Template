@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Popup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="header">
+        <div class="left">
+          <div class="hamburger" id="toggleMobileMenu">
+            <img class="open" src="assets/Dot-1.svg" alt="">
+            
+          </div>
+          <img src="assets/Group 1000007777.svg" alt="logo" />
+          
+        </div>
+        <div class="center">
+          <p>Find the ideal gift for your loved ones.</p>
+        </div>
+        <div class="right">
+          <p>CHOOSE GIFT</p>
+          <span>→</span>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="center">
+          <p>Find the ideal gift for your loved ones.</p>
+        </div>
+        <div class="right">
+          <p>CHOOSE GIFT</p>
+          <span>→</span>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="mobile-des">
+          <h1>The Gift Guide</h1>
+          <p>Discover Joy: Your Ultimate Holiday Gift Destination.</p>
+        </div>
+
+        <img class="main-Image" src="assets/Frame-1.svg" alt="hero" />
+        <div class="sub-main">
+          <div class="gift-section">
+            <h1 class="head">The Gift Guide</h1>
+            <p class="desc">
+              Discover Joy: Your Ultimate Holiday Gift Destination. <br />
+              Explore our curated selection and find the perfect gifts to <br />
+              delight your loved ones this holiday season.
+            </p>
+            <br />
+            <div class="shop-now">
+              <p>SHOP NOW</p>
+              <span>→</span>
+            </div>
+          </div>
+          <div class="frame-section">
+            <img src="assets/Frame-2.svg" alt="Frame" />
+          </div>
+        </div>
+        <div class="frame-bar">
+          <p>SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL</p>
+        </div>
+      </div>
+
+      <div class="product-container">
+        <h2 class="product-tag">Tisso vison in the wild</h2>
+        <div class="container">
+          <div
+            class="product"
+            data-image="assets/Product-1.svg"
+            data-name="Orange Wide Leg"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="White"
+            data-col="Black"
+          >
+            <img
+              class="Image"
+              src="assets/Product-1.svg"
+              alt="Orange Wide Leg"
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product"
+            data-image="assets/Product-2.svg"
+            data-name="Tailored Jacket"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="Blue"
+            data-col="Black"
+          >
+            <img
+              class="Image"
+              src="assets/Product-2.svg"
+              alt="Orange Wide Leg"
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product"
+            data-image="assets/Product-3.svg"
+            data-name="Accordion Pleated Dress"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="Red"
+            data-col="Grey"
+          >
+            <img
+              class="Image"
+              src="assets/Product-3.svg"
+              alt="Accordion Pleated Dress"
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product"
+            data-image="assets/Product-4.svg"
+            data-name="Green Trench Coat"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="White"
+            data-col="Black"
+          >
+            <img
+              class="Image"
+              src="assets/Product-4.svg"
+              alt="Green Trench Coat "
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product"
+            data-image="assets/Product-5.svg"
+            data-name="Tennis Blue 
+            T-Shirt"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="Grey"
+            data-col="Black"
+          >
+            <img
+              class="Image"
+              src="assets/Product-5.svg"
+              alt="Tennis Blute T-Shirt"
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product"
+            data-image="assets/Product-6.svg"
+            data-name="Long Sleeve Tennis Top"
+            data-price="980,00€"
+            data-info="This one-piece swimsuit is crafted from jersey featuring an allover micro Monogram motif in relief."
+            data-color="Blue"
+            data-col="Black"
+          >
+            <img
+              class="Image"
+              src="assets/Product-6.svg"
+              alt="Long Sleeve Tennis Top"
+            />
+            <img src="assets/Group-1.svg" class="overlay" alt="Overlay" />
+            <div class="small-popup hidden" id="popup">
+              <img id="popup-image" src="" alt="Porduct Image" />
+              <div>
+                <h3 id="popup-name"></h3>
+                <p id="popup-price"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="productModal" class="card">
+          <div class="close-icon">
+            <!-- <i class="fas fa-times"> </i> -->
+            <span class="close">&times;</span>
+          </div>
+          <div class="content">
+            <div class="image-section">
+              <img id="modalImage" src="" alt="Product Image" />
+              <div class="details">
+                <h2 id="modalName">Tennis Blue T-Shirt</h2>
+                <p id="modalPrice" class="price">980,00€</p>
+                <p id="modelInfo" class="description">
+                  This one-piece swimsuit is crafted from jersey featuring an
+                  allover micro Monogram motif in relief.
+                </p>
+              </div>
+            </div>
+
+            <div id="colorBox" class="color-section">
+              <p>Color</p>
+              <div class="color-buttons">
+                <button id="modalColor" class="color-btn">Grey</button>
+                <button id="modalCol" class="color-btn">Black</button>
+              </div>
+            </div>
+
+            <div class="size-section selection-box" id="sizeBox">
+              <p>Size</p>
+              <div class="size-select size-dropdown">
+                <span>Choose your size</span>
+                <select id="size">
+                  <option class="option" value="X">X</option>
+                  <option class="option" value="L">L</option>
+                  <option class="option" value="M">M</option>
+                  <option class="option" value="XL">XL</option>
+                  <option class="option" value="XmXL">XXL</option>
+                </select>
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <p>ADD TO CART</p>
+              <span>→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
